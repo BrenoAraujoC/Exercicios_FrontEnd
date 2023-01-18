@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 205, 98, 0.7);
+}
+
+body,
+input,
+textarea {
+    font-family: 'Satisfy', cursive;
+}
+
+header {
+    font-family: 'Croissant One', cursive;
+    font-weight: normal;
+    background-color: rgb(43, 43, 43);
+    padding: 16px 0;
+}
+
+header img {
+    height: 90px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: rgb(244, 174, 25);
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section img {
+    height: 320px;
+    margin-right: 32px;
+}
+
+section .container,
+#workshop .container {
+    margin-left: 8px;
+    font-size: 24px;
+    text-align: justify;
+}
+
+section h2 {
+    font-size: 48px;
+}
+
+section p {
+    margin-bottom: 12px;
+}
+
+section {
+    padding: 24px;
+    color: rgb(43, 43, 43);
+}
+
+#products .container {
+    display: block;
+}
+
+.produtos article {
+    width: 22%;
+}
+
+.produtos article img {
+    height: 250px;
+    width: 100%;
+}
+
+section h3 {
+    margin-bottom: 12px;
+}
+
+section .produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.produtos article h3 {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.produtos article p {
+    font-size: 20px;
+}
+
+#workshop img {
+    height: 650px;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links img {
+    height: 36px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: rgb(43, 43, 43);
+    color:  rgb(244, 174, 25);
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color:  rgb(244, 174, 25);
+    color: rgb(43, 43, 43);
+}
+
+input:focus,
+textarea:focus {
+    outline-color: rgb(43, 43, 43);
+}
+
+footer {
+    background-color: rgb(43, 43, 43);
+    color: rgb(244, 174, 25);
+    padding: 16px 0;
+    font-family: 'Croissant One', cursive;
+    font-weight: normal;
+}
+
+.image img {
+    height: 100px;
+}
+
+.image {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
