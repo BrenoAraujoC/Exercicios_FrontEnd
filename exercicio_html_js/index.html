@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício_HTML_JS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Roboto+Slab&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Inserção de Números</h1>
+        <h2>Um número deve ser maior do que o outro</h2>
+        <form id="form-numbers">
+            <input type="number" id="number1" required placeholder="Insira um número" />
+            <input type="number" id="number2" required placeholder="Insira um número maior do que o anterior" />
+            <p class="error-message"></p>
+            <button id="enviar" type="submit">Enviar</button>
+        </form>
+        <p class="success-message"></p>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
