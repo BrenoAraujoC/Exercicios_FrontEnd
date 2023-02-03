@@ -18,14 +18,14 @@ form.addEventListener('submit', function(e) {
     formEValido = validaNumero(valorA, valorB);
 
     if (formEValido) {
-        const containerMensagemSucesso = document.querySelector('.success-message');
+        const containerMensagemSucesso = document.querySelector('.message');
         containerMensagemSucesso.innerHTML = mensagemSucesso;
         containerMensagemSucesso.style.display = 'block';
 
         document.getElementById('number1').value = "";
         document.getElementById('number2').value = "";
     } else {
-        const containerMensagemErro = document.querySelector('.error-message');
+        const containerMensagemErro = document.querySelector('.message');
         containerMensagemErro.innerHTML = mensagemErro;
         containerMensagemErro.style.display = 'block';
 

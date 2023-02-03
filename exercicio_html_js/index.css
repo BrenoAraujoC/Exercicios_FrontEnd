@@ -40,24 +40,9 @@ button:hover {
     background-color: rgb(70, 42, 96);
 }
 
-.success-message {
+.message {
     background-color: blueviolet;
-    padding: 16px;
-    color: white;
-    display: none;
-}
-
-.error-message {
-    font-size: 12px;
     padding: 8px;
-    background-color: red;
     color: white;
-    margin-bottom: 8px;
     display: none;
-}
-
-input.error {
-    color: red;
-    border-color: red;
-    outline-color: red;
 }
